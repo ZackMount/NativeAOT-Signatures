@@ -1,3 +1,5 @@
+
+
 # NativeAOT-Signatures
 
 This repository contains signature files (.sig) for .NET applications compiled with NativeAOT. These signatures are generated using IDA Pro to assist in the reverse engineering of binaries that leverage extensive native methods.
@@ -17,7 +19,7 @@ This repository contains signature files (.sig) for .NET applications compiled w
 Contributions to this repository are welcome. Please follow these steps to contribute:
 - Fork the repository.
 - Create a new branch for your signatures (`git checkout -b your-signature-branch`).
-- Add your signature files in the correct directory with appropriate naming conventions.
+- Add your signature files to the `signatures/` directory with appropriate naming conventions.
 - Push your changes and open a pull request.
 
 ## Signature Files Format and Naming Conventions
@@ -35,4 +37,3 @@ Each signature file must adhere to the following standards:
 ## License
 
 This project is released under the MIT License. See the `LICENSE` file for more details.
-
